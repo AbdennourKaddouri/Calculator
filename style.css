@@ -1,0 +1,53 @@
+body {
+    background: url("../img/pikapi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    border: 1px solid black;  
+    margin: 0 auto;
+    -moz-box-shadow:    3px 3px 25px 6px black;
+    -webkit-box-shadow: 3px 3px 25px 6px black;
+    box-shadow:         3px 3px 25px 6px black;
+}
+
+.top-part {
+    background-color: #c42727;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: arial;
+    text-align: center;
+}
+
+.bottom-part {
+    background-color: #ffffffa3;    
+    height: 411px;
+    padding: 8px;
+}
+
+.bottom-part ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.bottom-part label {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+.bottom-part input {
+    margin-top: 26px;
+    width: 100%;
+    padding: 10px;
+}
+
+.bottom-part select {
+    width: 100%;
+    padding: 10px;
+}
